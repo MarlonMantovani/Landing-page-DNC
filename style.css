@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    font-family: "Inter";
+}
+
+#menuSuperior {
+    background-image: url(img/fundo.svg);
+    color: aliceblue;
+}
+
+#logo {
+    margin:  50px 0 0 50px;
+}
+
+#titulo-menuSuperior {
+    margin: 50px 0 0 150px;
+}
+
+#texto-menuSuperior {
+    margin: 35px 0 0 150px;
+    padding-bottom: 150px;
+}
+
+#menuInformacional {
+    background: rgba(234, 236, 229, 1);
+    display: flex;
+    padding: 30px;
+}
+
+#escpecificCurso {
+    margin: auto;
+    
+}
