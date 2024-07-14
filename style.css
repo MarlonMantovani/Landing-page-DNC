@@ -48,7 +48,8 @@
 
 #carrossel {
     background-color: #247BA0;
-    padding: 50px;
+    padding: 70px;
+    text-align: center;
 }
 
 #titulo-carrossel {
@@ -64,5 +65,25 @@
 }
 
 .card {
-    margin-left: 50px;
+    margin: 0 25px;
+    width: 500px;
+}
+
+#seta-esquerda {
+    display: none;  
+}
+
+#bruna {
+    display: none;
+}
+
+.seta {
+    margin: 270% 0;
+    width: 25px;    
+}
+
+.seta:hover {
+    cursor: pointer;
+    transform: translateY(-1.5px);
+    transition-duration: 0.3s;
 }
